@@ -15,7 +15,6 @@ class ViewController: UIViewController, GADInterstitialDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.interstital = createAndLoadInterstitial()
     }
 
